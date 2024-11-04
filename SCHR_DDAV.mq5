@@ -82,7 +82,6 @@ double                  _DRAW_Signal_SELL[];
 
 //GLOBAL VARS
 double                  Fast_SmoothFactor, Slow_SmoothFactor;
-
 //+------------------------------------------------------------------+
 //| Trading Rule Signals (6)                                         |
 //+------------------------------------------------------------------+
@@ -91,9 +90,9 @@ enum ENUM_TR_SIGNAL
    NOTRADE,
    BUY,
    SELL,
-   DBL_BUY,
-   DBL_SELL,
-   CLOSE_ALL,
+   DBL_BUY,                      // Needed For Reverse (In Netting Broker Account)
+   DBL_SELL,                     // Needed For Reverse (In Netting Broker Account)
+   BUY_AND_SELL,                 // Simultaneously Buy and Sell (On Hedge Accounts)
   };
 //+------------------------------------------------------------------+
 //| Expert deinitialization function                                 |
@@ -285,7 +284,7 @@ void Notify(const int &i)
                 + EnumToString(ENUM_TR_SIGNAL(_Signal[i]));
 
 //Fill info
-   STRUCT_NOTIFY n= {0};
+   STRUCT_NOTIFY n= {};
 
    n.acc_number=false;
    n.account_fifo_close=true;
