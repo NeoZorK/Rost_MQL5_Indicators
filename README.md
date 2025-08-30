@@ -8,8 +8,13 @@
 > **Professional MQL5 Indicators Collection for MetaTrader 5**  
 > Advanced trading indicators with multiple trading rules and signal systems
 
+---
+
+
+
 ## 📋 Table of Contents
 
+- [Support the Project](#-support-the-project)
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
