@@ -347,7 +347,6 @@ If you find these indicators helpful and would like to support the development, 
 ## 📞 Contacts
 
 **Author**: Shcherbyna Rostyslav  
-**Email**:   
 **Documentation Version**: 1.0  
 **Last Updated**: 2025  
 
@@ -365,6 +364,5 @@ If you find these indicators helpful and would like to support the development, 
 
 [![GitHub](https://img.shields.io/badge/GitHub-NeoZorK-black.svg?style=flat&logo=github)](https://github.com/NeoZorK)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rostyslav%20Shcherbyna-blue.svg?style=flat&logo=linkedin)](https://www.linkedin.com/in/rostyslav-sh-)
-[![Email](https://img.shields.io/badge/Email-NeoZorK%40protonmail.com-red.svg?style=flat&logo=protonmail)](mailto:)
 
 </div>
